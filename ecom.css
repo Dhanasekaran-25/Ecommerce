@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  
+}
+
+.form {
+  border: 1px solid #eeeaea;
+  padding: 30px;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+  gap: 15px; 
+  background-color: bisque;
+}
+
+.form label {
+  text-align: left;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.form input {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: black;
+  background-color:burlywood;
+  border-radius: 5px;
+  
+  
+}
+
+.forgotpassword{
+    text-align: center;
+}
